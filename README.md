@@ -9,7 +9,7 @@ The algorithm reduces computational complexity from O(N^d) to **O(1)**, enabling
 
 ## 🚀 Run & Test it Online (No installation required)
 You can test the theorem's logic and calculate constants directly in your browser using this interactive link:
-👉 **[Run Amestoy Vazquez Theorem Online](https://www.online-python.com/oVz675NSCf)**
+👉 **[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xI1gWXsaahZloBEfsekv6Zn-1NRMdbLl?usp=sharing)**
 
 ## Implementation Logic
 The core of the theorem is implemented as follows:
