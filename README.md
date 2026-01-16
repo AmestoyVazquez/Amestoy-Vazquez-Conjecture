@@ -23,8 +23,8 @@ S = n \cdot 1 + \frac{n(n^2 - 1)}{2}
 
 This suggests a generalization for squares starting at any number 'a':
 \[
-S = n \cdot a + \frac{n(n^2 - 1)}{2}
-\]
+(https://latex.codecogs.com/svg.latex?S(n,d,a)%20%3D%20n%20%5Ccdot%20a%20+%20%5Cfrac%7Bn(n%5Ed%20-%201)%7D%7B2%7D
+)\]
 
 ## 🧪 Current Status
 
