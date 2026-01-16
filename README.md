@@ -1,29 +1,42 @@
-# The Amestoy Vazquez Theorem: Orthogonal Invariance in N-Dimensional Systems
+# Amestoy-Vázquez Mathematical Insight
 
-**Official DOI:** [10.5281/zenodo.18248839](https://doi.org/10.5281/zenodo.18248839)
+## ⚠️ IMPORTANT DISCLAIMER
+This is **NOT** a proven theorem. It is a **mathematical observation** 
+that appears to generalize the classical magic square formula.
 
-Official Python implementation of the **Amestoy Vazquez Theorem** for calculating invariance constants in N-dimensional tensors.
+I am **NOT** a professional mathematician. This is independent 
+exploration work.
 
-## Overview
-The algorithm reduces computational complexity from O(N^d) to **O(1)**, enabling instantaneous integrity validation for massive datasets across any dimension and any starting point.
+## 📊 What This Is About
 
-## 🚀 Interactive Implementation
+The classical magic square formula:
+\[
+S = \frac{n(n^2 + 1)}{2}
+\]
+only works for squares containing numbers 1 through n².
 
-Experience the theorem's efficiency firsthand through our official interactive environments:
+### The Observation
+The formula can be rewritten as:
+\[
+S = n \cdot 1 + \frac{n(n^2 - 1)}{2}
+\]
 
-| Platform | Access Type | Link |
-| :--- | :--- | :--- |
-| **Official Web App** | **Instant Run (No login)** | [**Launch Calculator ⚡**](https://amestoy-vazquez-theorem-calculator--amestoyvazquez.replit.app/) |
-| **Google Colab** | Research & LaTeX View | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xI1gWXsaahZloBEfsekv6Zn-1NRMdbLl?usp=sharing) |
+This suggests a generalization for squares starting at any number 'a':
+\[
+S = n \cdot a + \frac{n(n^2 - 1)}{2}
+\]
 
-> [!TIP]
-> Use the **Web App** for a quick mobile-friendly test or **Google Colab** to review the mathematical documentation and step-by-step breakdown.
+## 🧪 Current Status
 
-## Implementation Logic
-The core of the theorem is implemented as follows:
+| Aspect | Status |
+|--------|--------|
+| Mathematical formulation | ✅ Done |
+| Verification for odd n | ✅ Done |
+| Verification for even n | 🔄 In progress |
+| Formal mathematical proof | ❌ Needed |
+| Extension to dimensions >2 | 🔍 Exploring |
+
+## 🚀 Quick Test
 
 ```python
-def amestoy_vazquez_constant(n, d, start_val=1):
-    # The Amestoy Vazquez Formula
-    # Instant calculation regardless of dimension or scale
-    return (n * (start_val + (start_val + n**d - 1))) / 2
+python simple_verification.py
