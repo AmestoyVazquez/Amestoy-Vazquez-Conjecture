@@ -7,7 +7,9 @@
 
 ## 📐 The Formula
 
-![Amestoy-Vázquez Formula](https://latex.codecogs.com/svg.latex?S(n,d,a)%20%3D%20n%20%5Ccdot%20a%20+%20%5Cfrac%7Bn(n%5Ed%20-%201)%7D%7B2%7D)
+```math
+S(n,d,a) = n \cdot a + \frac{n(n^d - 1)}{2}
+```
 
 **In plain text:**
 ```
@@ -205,7 +207,9 @@ S_{\text{classical}} = \frac{n(n^2 + 1)}{2}
 *Assumes:* Numbers 1 through n², 2 dimensions only.
 
 ### Amestoy-Vázquez Generalization:
-![Amestoy-Vázquez Formula](https://latex.codecogs.com/svg.latex?S(n,d,a)%20%3D%20n%20%5Ccdot%20a%20+%20%5Cfrac%7Bn(n%5Ed%20-%201)%7D%7B2%7D)
+```math
+S(n,d,a) = n \cdot a + \frac{n(n^d - 1)}{2}
+```
 *Extends to:* Any starting value 'a', any dimension 'd'.
 
 ## ⚡ Performance Advantage
